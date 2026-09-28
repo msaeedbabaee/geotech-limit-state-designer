@@ -1,0 +1,35 @@
+# ====================================================================
+# OpenCFEM: Requirements & Dependencies
+# Core Framework for Geotechnical Limit State & Reliability-Based Design
+# ====================================================================
+
+# Core Numerical & Scientific Computing
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+sympy>=1.12            # For analytical integrations and symbolic derivations
+
+# Data Manipulation & Input/Output
+pandas>=2.0.0
+openpyxl>=3.1.0        # Excel-based soil profile and borehole data I/O
+xlsxwriter>=3.1.0
+
+# Statistical Modeling & Reliability Analysis (FORM/SORM & Monte Carlo)
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Visualization & Plotting (p-y curves, t-z curves, load-settlement diagrams)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0         # Interactive plots for dashboards
+
+# Interactive Web Application & Portfolio UI
+streamlit>=1.30.0
+
+# Technical Report Generation & Documentation
+fpdf2>=2.7.0           # PDF calculation sheet export
+Jinja2>=3.1.0          # HTML/Markdown templating for engineering reports
+
+# Development & Code Quality Assurance
+pytest>=7.4.0          # Unit testing for verification against CFEM benchmarks
+black>=23.7.0          # Code formatting
+flake8>=6.1.0          # PEP 8 linting
